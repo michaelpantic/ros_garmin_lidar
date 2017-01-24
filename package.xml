@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>garmin_lidar_driver</name>
+  <version>0.0.0</version>
+  <description>ROS node for garmin lidar v3</description>
+  
+  <maintainer email="michael.pantic@gmail.com">Michael Pantic</maintainer>
+
+  <license>ASL 2.0</license>
+
+   <author email="michael.pantic@gmail.com">Michael Pantic</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>serial</build_depend>
+  <run_depend>roscpp</run_depend>
+  <!-- run_depend>cmake_modules</run_depend -->
+</package>
